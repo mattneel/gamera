@@ -1,0 +1,16 @@
+{
+  "name": "gamera",
+  "private": true,
+  "description": "Vite-hosted outbound bridge for game scripting runtimes. The game connects out; each title is a plugin.",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Builds
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# Logs and debug
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test / coverage
+coverage/
+.nyc_output/
+
+# Caches
+.cache/
+.turbo/
+.vite/
+.eslintcache
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# Agent discovery (local listen URL + token)
+.gamera.json
+**/.gamera.json
