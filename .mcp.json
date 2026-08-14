@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "sharp-mist": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\requi\\Documents\\Sharp Mist\\Scripts\\.sharp-mist-dev\\tool\\bin\\sharp-mist-dev.js",
+        "--workspace",
+        "C:\\Users\\requi\\Documents\\Sharp Mist\\Scripts",
+        "mcp"
+      ],
+      "cwd": "C:\\Users\\requi\\Documents\\Sharp Mist\\Scripts"
+    }
+  }
+}
