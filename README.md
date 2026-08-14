@@ -71,4 +71,13 @@ packages/sharp-mist    first game plugin (scope + Scripts/.gamera.json)
 
 ## Status
 
-Design seed. Next: hub + agent eval round-trip, then the Vite plugin, then `gamera-sharp-mist`.
+Hub, agent, client, Vite plugin, and Sharp Mist adapter are implemented. `npm test` covers serialize and a Node hello/eval round-trip.
+
+```powershell
+npm install
+npm test
+cd examples/hello
+npx vite --host 127.0.0.1
+```
+
+Then build and Start `GameraAgent.cjs` from Sharp Mist (`npm run build --workspace gamera-sharp-mist`).

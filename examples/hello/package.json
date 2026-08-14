@@ -1,0 +1,17 @@
+{
+  "name": "gamera-example-hello",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "gamera-sharp-mist": "*",
+    "gamera-vite": "*"
+  },
+  "devDependencies": {
+    "vite": "6.3.5"
+  }
+}
